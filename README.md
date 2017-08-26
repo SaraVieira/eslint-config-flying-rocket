@@ -1,5 +1,7 @@
 # Eslint Config Flying Rocket 🚀
 
+[![travis-image]][travis-url] [![npm][npm-image]][npm-url] ![downloads][downloads-image]
+
 [travis-image]: https://img.shields.io/travis/SaraVieira/eslint-config-flying-rocket/master.svg
 [travis-url]: https://travis-ci.org/SaraVieira/eslint-config-flying-rocket
 [npm-image]: https://img.shields.io/npm/v/eslint-config-flying-rocket.svg
