@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-flying-rocket",
-  "description": "JavaScript Standard Style - ESLint Shareable Config",
+  "description": "Awesome Eslint Configuration I use",
   "version": "1.0.0",
   "author": {
     "name": "Sara Vieira",
@@ -9,14 +9,6 @@
   },
   "bugs": {
     "url": "https://github.com/SaraVieira/eslint-config-flying-rocket/issues"
-  },
-  "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.0",
-    "tape": "^4.6.3"
   },
   "homepage": "https://github.com/SaraVieira/eslint-config-flying-rocket",
   "keywords": [
@@ -46,17 +38,29 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=3.19.0",
-    "eslint-plugin-import": ">=2.2.0",
-    "eslint-plugin-node": ">=4.2.2",
-    "eslint-plugin-promise": ">=3.5.0",
-    "eslint-plugin-standard": ">=3.0.0"
+    "eslint": ">=3.19.0"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/SaraVieira/eslint-config-flying-rocket.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js | tnyan"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-compat": "^1.0.4",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^7.3.0",
+    "prettier": "^1.5.3",
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.6.3"
   }
 }

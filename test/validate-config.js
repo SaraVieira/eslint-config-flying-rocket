@@ -1,16 +1,24 @@
-var eslint = require('eslint')
-var test = require('tape')
+const eslint = require('eslint');
+const test = require('tape');
 
-test('load config in eslint to validate all rule syntax is correct', function (t) {
-  var CLIEngine = eslint.CLIEngine
+const CLIEngine = eslint.CLIEngine;
 
-  var cli = new CLIEngine({
-    useEslintrc: false,
-    configFile: 'eslintrc.json'
-  })
+const cli = new CLIEngine({
+  useEslintrc: false,
+  configFile: 'index.js'
+});
 
-  var code = 'var foo = 1\nvar bar = function () {}\nbar(foo)\n'
+const NoErrors = 'const foo = 1\nconst bar = () => {}\nbar(foo)\n';
+const OneError = 'var foo = 1\nconst bar = () => {}\nbar(foo)\n';
+const a11y = 'const fn = () => <div onClick={this.jhdask}>sdhasj</div>\nfn()';
+const prettier = 'const va = "dgashdag"\nexport default va';
 
-  t.equal(cli.executeOnText(code).errorCount, 0)
-  t.end()
-})
+test('load config in eslint to validate all rule syntax is correct', function(
+  t
+) {
+  t.equal(cli.executeOnText(NoErrors).errorCount, 0);
+  t.equal(cli.executeOnText(OneError).errorCount, 1);
+  t.equal(cli.executeOnText(a11y).errorCount, 1);
+  t.equal(cli.executeOnText(prettier).errorCount, 1);
+  t.end();
+});
