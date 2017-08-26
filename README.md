@@ -7,7 +7,7 @@
 [npm-image]: https://img.shields.io/npm/v/eslint-config-flying-rocket.svg
 [npm-url]: https://npmjs.org/package/eslint-config-flying-rocket
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-flying-rocket.svg
-[downloads-url]: https://img.shields.io/npm/dm/eslint-config-flying-rocket.svg
+[downloads-url]: https://www.npmjs.com/package/eslint-config-flying-rocket
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for the style I use and you may like too 🍕
 
@@ -37,21 +37,19 @@ Add this to your .eslintrc file:
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc` file.
 
-## Learn more
-
-### Packages:
-    * [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
-    * [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
-    * [eslint-plugin-compat](https://www.npmjs.com/package/eslint-plugin-compat)
-    * [eslint-plugin-flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype)
-    * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
-    * [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest)
-    * [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
-    * [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
-    * [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+## Packages:
+  * [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+  * [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+  * [eslint-plugin-compat](https://www.npmjs.com/package/eslint-plugin-compat)
+  * [eslint-plugin-flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype)
+  * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+  * [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest)
+  * [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+  * [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+  * [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
 
 
-### Custom Rules:
+## Custom Rules:
   * Use signgle quotes (prettier)
   * No semicolons (prettier)
   * no-weak-types - No using Array and Object in flow ( only warning)
