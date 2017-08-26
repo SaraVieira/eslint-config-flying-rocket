@@ -1,0 +1,62 @@
+{
+  "name": "eslint-config-flying-rocket",
+  "description": "JavaScript Standard Style - ESLint Shareable Config",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sara Vieira",
+    "email": "hey@iamsaravieira.com",
+    "url": "http://iamsaravieira.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/SaraVieira/eslint-config-flying-rocket/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.0",
+    "tape": "^4.6.3"
+  },
+  "homepage": "https://github.com/SaraVieira/eslint-config-flying-rocket",
+  "keywords": [
+    "prettier",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=3.19.0",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-node": ">=4.2.2",
+    "eslint-plugin-promise": ">=3.5.0",
+    "eslint-plugin-standard": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SaraVieira/eslint-config-flying-rocket.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}
