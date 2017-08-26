@@ -1,13 +1,10 @@
-# eslint-config-flying-rocket [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+# Eslint Config Flying Rocket 🚀
 
-<!-- [travis-image]: https://img.shields.io/travis/standard/eslint-config-flying-rocket/master.svg
-[travis-url]: https://travis-ci.org/standard/eslint-config-flying-rocket
+[travis-image]: https://img.shields.io/travis/SaraVieira/eslint-config-flying-rocket/master.svg
+[travis-url]: https://travis-ci.org/SaraVieira/eslint-config-flying-rocket
 [npm-image]: https://img.shields.io/npm/v/eslint-config-flying-rocket.svg
 [npm-url]: https://npmjs.org/package/eslint-config-flying-rocket
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-flying-rocket.svg
-[downloads-url]: https://npmjs.org/package/eslint-config-flying-rocket
-[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[standard-url]: https://standardjs.com -->
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for the style I use and you may like too 🍕
 
@@ -60,4 +57,4 @@ You can override settings from the shareable config by adding them directly into
 
 ## License
 
-MIT. Copyright (c) [Sara Vieira](http://iamsaravieira.com).å
+MIT. Copyright (c) [Sara Vieira](http://iamsaravieira.com) 🚀
