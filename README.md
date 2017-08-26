@@ -1,5 +1,7 @@
 # Eslint Config Flying Rocket 🚀
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SaraVieira/eslint-config-flying-rocket.svg)](https://greenkeeper.io/)
+
 [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
 [travis-image]: https://img.shields.io/travis/SaraVieira/eslint-config-flying-rocket/master.svg
