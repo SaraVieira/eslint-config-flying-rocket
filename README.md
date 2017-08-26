@@ -1,24 +1,20 @@
 # eslint-config-flying-rocket [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/standard/eslint-config-flying-rocket/master.svg
+<!-- [travis-image]: https://img.shields.io/travis/standard/eslint-config-flying-rocket/master.svg
 [travis-url]: https://travis-ci.org/standard/eslint-config-flying-rocket
 [npm-image]: https://img.shields.io/npm/v/eslint-config-flying-rocket.svg
 [npm-url]: https://npmjs.org/package/eslint-config-flying-rocket
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-flying-rocket.svg
 [downloads-url]: https://npmjs.org/package/eslint-config-flying-rocket
 [standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[standard-url]: https://standardjs.com
+[standard-url]: https://standardjs.com -->
 
-#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for [JavaScript Standard Style](http://standardjs.com)
-
-[![JavaScript Style Guide - Standard Style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for the style I use and you may like too 🍕
 
 ## Install
 
-This module is for advanced users. You probably want to use [`standard`](http://standardjs.com) instead :)
-
 ```bash
-npm install eslint-config-flying-rocket
+yarn add eslint-config-flying-rocket --dev
 ```
 
 ## Usage
@@ -28,17 +24,11 @@ You can learn more about
 [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the
 official ESLint website.
 
-To use the JavaScript Standard Style shareable config, first run this:
-
-```bash
-npm install --save-dev eslint-config-flying-rocket eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
-```
-
-Then, add this to your .eslintrc file:
+Add this to your .eslintrc file:
 
 ```
 {
-  "extends": "standard"
+  "extends": "flying-rocket"
 }
 ```
 
@@ -47,36 +37,27 @@ Then, add this to your .eslintrc file:
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc` file.
 
-### Looking for something easier than this?
-
-The easiest way to use JavaScript Standard Style to check your code is to use the
-[`standard`](http://standardjs.com) package. This comes with a global
-Node command line program (`standard`) that you can run or add to your `npm test` script
-to quickly check your style.
-
-## Badge
-
-Use this in one of your projects? Include one of these badges in your readme to
-let people know that your code is using the standard style.
-
-[![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
-
-```markdown
-[![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
-```
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-
-```markdown
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-```
-
 ## Learn more
 
-For the full listing of rules, editor plugins, FAQs, and more, visit the main
-[JavaScript Standard Style repo](http://standardjs.com).
+### Packages:
+    * [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+    * [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+    * [eslint-plugin-compat](https://www.npmjs.com/package/eslint-plugin-compat)
+    * [eslint-plugin-flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype)
+    * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+    * [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest)
+    * [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+    * [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+    * [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+
+
+### Custom Rules:
+  * Use signgle quotes (prettier)
+  * No semicolons (prettier)
+  * no-weak-types - No using Array and Object in flow ( only warning)
+  * react-in-jsx-scope - Turned off because I use preact a lot with .js files
+
 
 ## License
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
-# eslint-config-flying-rocket
+MIT. Copyright (c) [Sara Vieira](http://iamsaravieira.com).å

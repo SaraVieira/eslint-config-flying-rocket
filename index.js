@@ -45,7 +45,6 @@ module.exports = {
         ]
       }
     ],
-    'jsx-a11y/href-no-hash': [2],
     indent: ['error', 4],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
