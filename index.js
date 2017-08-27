@@ -49,6 +49,12 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
-    'react/react-in-jsx-scope': [0]
+    'react/react-in-jsx-scope': [0],
+    'react/jsx-filename-extension': [0]
+  },
+  settings: {
+    react: {
+      pragma: 'h'
+    }
   }
 };
